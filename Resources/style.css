@@ -24,6 +24,13 @@ h4 {
   text-align: center;
 }
 
+.centered-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
 
 /* Header items */
 
@@ -37,6 +44,7 @@ h4 {
   z-index: 1;
   width: 100%;
   top: 0;
+  background-color: black;
 }
 
 .logo {
@@ -46,7 +54,6 @@ h4 {
 
 .menu {
   display: flex;
-  align-items: center;
   margin-right: 30px;
 }
 
@@ -74,7 +81,6 @@ h4 {
   width: 1200px;
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  /*margin: 0 auto 50px auto;*/
 }
 
 
@@ -83,11 +89,32 @@ h4 {
   align-items: center;
   align-content: center;
   background: black;
-  height: 100px;
+  height: 120px;
   width: 1200px;
 
 }
 
 .section-title {
 width: 1200px;
+}
+
+
+/* Featured Tea items */
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.thumbnail-img {
+  height: 200px;
+  width: 300px;
 }
